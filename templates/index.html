@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+  background-color: #FFF6E3;
+}
+</style>
+</head>
+<body>
+ 
+<center>
+<h1>Welcome to the application</h1>
+</center>
+<h3>Please enter the details.</h3>
+
+      <div class="row">
+        <form action='/predict' method="post" class="col s12">
+           
+                    <input placeholder="No. of Pregnancies" name="1" id="first_name" type="text" class="validate">
+               
+               
+                    <input id="last_name" name="2" placeholder="Glucose level in sugar"  type="text" class="validate">
+    
+    
+                
+                    <input id="_name" name="3" placeholder="BloodPressure" type="text" class="validate">
+    
+             
+                    <input placeholder="SkinThickness" name="4" id="first_name" type="text" class="validate">
+           
+               
+                    <input id="last_name" name="5" placeholder="Insulin level"  type="text" class="validate">
+             
+              
+                  <input name = '6' placeholder="Body Mass Index">
+
+               
+             
+                    <input id="last_name" name="7" placeholder="DiabetesPedigreeFunction"  type="text" class="validate">
+            
+                
+                    <input id="_name" name="8" placeholder="Age" type="text" class="validate">
+              
+    
+          </div>
+    <br>
+             <center>
+              <button type="submit" class="btn-large waves-effect waves-light orange">Predict</button>
+             </center>
+         
+        </form>
+  </div>
+
+      <br>
+
+     
+    <br><br>
+<div > 
+<center>
+            <h3 >{{pred}}</h3>
+</center>
+  </div>
+
+  </div>
+  </div>
+
+
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src=".js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
+
