@@ -1,6 +1,6 @@
 # Diabetes_Prediction
 
-This application prdicts whether a user has diabetes or no based on some information provided by him/her.
+This application predicts whether a user has diabetes or no based on some information provided by him/her.
 
  Following are the ways to use the application.
 
